@@ -1,0 +1,34 @@
+whatis Command
+
+Purpose: Provides a one-line description of a command.
+Syntax: whatis command_name
+Key Points
+
+The whatis command itself doesn't have any specific flags.
+The output often includes a number in parentheses indicating the manual section.
+Useful for getting a quick refresher on a command's purpose.
+
+man Command
+
+Purpose: Access in-depth command manuals (man pages).
+Syntax: man command_name
+Common Flags
+
+-f : Equivalent to the whatis command.
+-k : Equivalent to the apropos command (search by keyword).
+-w or --where : Display only the location of man pages.
+-M path : Use a specific search path for man pages (colon-separated).
+-a : Display all matching manual pages, even if normally hidden.
+-t : Format the man page using troff for printing or other output types.
+-l : Format the man page for local viewing (often uses less as a pager).
+-H[browser] : Display the man page using an HTML browser.
+
+Navigation within 'man'
+
+Spacebar: Move down a page.
+b: Move up a page.
+Arrow keys: Scroll line by line.
+Enter: Move one line down
+/search_term/:** Find a specific term.
+n: Find the next occurrence of the search term.
+q: Exit the man pager.
