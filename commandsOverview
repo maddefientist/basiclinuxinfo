@@ -1,0 +1,50 @@
+Linux Reference Guide Cheat Sheet
+
+Navigate the File System:
+ cd: Navigates between directories
+   `cd reports`: Moves to the subdirectory 'reports'
+   `cd /home/analyst/reports`: Moves to '/home/analyst/reports'
+   `cd ..`: Moves up one directory level
+ ls: Displays files and directories
+   `ls`: Lists current directory contents
+   `ls /home/analyst/reports`: Lists contents of 'reports'
+   `ls a`: Shows hidden files
+   `ls l`: Displays detailed file info
+ pwd: Prints current directory path
+ whoami: Shows current username
+
+Read Files:
+ cat: Displays file content
+ head: Shows start of file
+ less: Shows file content page by page
+ tail: Displays end of file
+
+Manage the File System:
+ cp: Copies files
+ mkdir: Creates directories
+ mv: Moves or renames files
+ nano: Opens files in nano editor
+ rm: Deletes files
+ rmdir: Removes empty directories
+ touch: Creates new files
+
+Filter Content:
+ find: Searches for files based on criteria
+ grep: Searches for strings in files
+ | (piping): Sends output of one command to another
+
+Manage Users & Permissions:
+ chmod: Changes file permissions
+ chown: Changes file ownership
+ groupdel: Deletes a group
+ sudo: Grants elevated permissions
+ useradd: Adds a user
+ userdel: Deletes a user
+ usermod: Modifies user accounts
+
+Get Help in Linux:
+ apropos: Searches manual page descriptions
+ man: Displays detailed command information
+ whatis: Shows brief command description
+
+Feel free to refer to this cheat sheet for quick Linux command references!
